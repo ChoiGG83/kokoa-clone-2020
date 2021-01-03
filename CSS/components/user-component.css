@@ -5,6 +5,7 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 .user-component__avatar {
   width: 70px;
@@ -18,7 +19,7 @@
 }
 .user-component__subtitle {
   margin-top: 5px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
 }
 .user-component__avatar--xl {
   width: 80px;
@@ -33,7 +34,7 @@
   font-weight: 400;
 }
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -41,4 +42,9 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.user-component__text i {
+  color: red;
+  opacity: 0.6;
+  margin-left: 3px;
 }

@@ -29,6 +29,10 @@
   height: 5px;
   border-radius: 2.5px;
   position: absolute;
-  left: 20px;
   bottom: 20px;
+  right: -5px;
+}
+
+.screen-header__icon :last-child {
+  position: relative;
 }
