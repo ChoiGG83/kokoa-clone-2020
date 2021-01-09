@@ -26,7 +26,6 @@
     opacity: 1;
   }
 }
-
 .main-chat {
   margin-top: 180px;
   display: flex;
@@ -65,6 +64,30 @@
   border-top-left-radius: 0px;
   margin-right: 5px;
 }
+@keyframes fadein-infoleft {
+  form {
+    transform: none;
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+.main-chat .message__info {
+  transform: translateX(-200px);
+  animation: fadein-infoleft 1s ease-in-out forwards;
+}
+@keyframes fadein-inforight {
+  form {
+    transform: none;
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+.message-row--own .message__info {
+  transform: translateX(200px);
+  animation: fadein-infoleft 1s ease-in-out forwards;
+}
 .message__info {
   display: flex;
   align-items: flex-end;
@@ -98,7 +121,7 @@
   padding: 5px 25px;
   box-sizing: border-box;
   align-items: center;
-  transition: all 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -121,13 +144,12 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 0;
-  top: 2px;
-  right: -3px;
+  right: 0px;
+  top: 0px;
 }
 .reply__column:last-child > i {
   right: 40px;
-  top: 10px;
+  top: 9px;
 }
 .reply__column input::placeholder {
   padding-left: 10px;
