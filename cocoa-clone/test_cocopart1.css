@@ -1,0 +1,159 @@
+body {
+  height: 100vh;
+  width: 400px;
+  border: 5px solid rgb(11, 200, 176);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.songbox-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.songbox-main_image {
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+  border: 3px solid black;
+  background-color: rgb(255, 189, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.songbox-main_info {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.songbox-main_info_text {
+  height: 33%;
+}
+.play-bar {
+  display: flex;
+  height: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+.play-bar_playicon {
+  height: 70px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 10px 0px 0px black;
+}
+.playicon_text {
+  margin-left: 10px;
+}
+
+.play-bar_hearticon {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 0px 0px black;
+}
+.play-bar_plusicon {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 0px 0px black;
+}
+
+.sub-songbox {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.f85a2a {
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #f85a2a;
+  margin-right: 15px;
+}
+.ff89bb {
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #ff89bb;
+  margin-right: 15px;
+}
+.c1847e5 {
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #1847e5;
+  margin-right: 15px;
+}
+.c00c6ad {
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #00c6ad;
+  margin-right: 15px;
+}
+.sub-songbox_matar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+}
+.sub-songbox_atti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 30px;
+}
+.sub-songbox_try {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 30px;
+}
+.sub-songbox_sun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 30px;
+}
+.sub-songbox_info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sub-songbox_info_text {
+  height: 20px;
+}

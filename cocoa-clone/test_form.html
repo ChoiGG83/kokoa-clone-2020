@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Form_label_input</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      <div>
+        <label for="first-name">First name</label>
+        <input id="first-name" required placeholder="First name" type="text" />
+      </div>
+      <div>
+        <label for="last-name">Last name</label>
+        <input id="last-name" required placeholder="Last name" type="text" />
+      </div>
+      <div>
+        <label for="e-mail">Email</label>
+        <input id="e-mail" required placeholder="Email" type="email" />
+      </div>
+      <div>
+        <label for="user-name">Username</label>
+        <input id="user-name" required placeholder="Username" type="text" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          id="password"
+          required
+          placeholder="Password"
+          minlength="10"
+          type="password"
+        />
+      </div>
+      <div>
+        <label for="B-D">Birth date</label>
+        <input id="B-D" required type="date" />
+      </div>
+      <div>
+        <label for="howhappy">How happy are you?</label>
+        <input id="howhappy" required type="range" />
+      </div>
+      <div>
+        <label for="fav-color">What is your fav, color?</label>
+        <input id="fav-color" required type="color" />
+      </div>
+      <div>
+        <input type="submit" value="Create Account" />
+      </div>
+    </form>
+  </body>
+</html>
