@@ -122,9 +122,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 body {
+  max-width: 340px;
   height: 100vh;
-  width: 340px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -240,4 +241,44 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.top-adventures {
+  margin: 25px 15px;
+}
+.top-adventures__title h2 {
+  font-weight: 600;
+}
+.top-adventures__list {
+  display: flex;
+  overflow-x: scroll;
+}
+.top-adventures__list-post img {
+  height: 100px;
+  width: 80px;
+  border-radius: 5px;
+  margin: 15px 15px 5px 0px;
+}
+
+.Popular-authors__title {
+  font-weight: 600;
+  margin: 15px;
+}
+.Popular-authors{
+  padding-bottom: 20px;
+}
+.Popular-authors__authors {
+  display: flex;
+  align-items: center;
+  magdin
+}
+.Popular-authors__text {
+  margin-left: 15px;
+}
+.Popular-authors__name {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.Popular-authors__Explanation {
+  font-size: 12px;
+  opacity: 0.7;
 }
